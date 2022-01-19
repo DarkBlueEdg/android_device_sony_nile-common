@@ -35,3 +35,6 @@ persist.timed.enable=true
 # Wireless display
 persist.debug.wfd.enable=1
 persist.sys.wfd.virtual=0
+
+# OTA - create openrecoveryscript manually
+ro.aicp.create.ors.file=true

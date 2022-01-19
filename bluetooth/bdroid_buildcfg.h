@@ -44,7 +44,7 @@ static inline const char* BtmGetDefaultName()
         return "Sony Xperia 10 Plus";
 
     // Fallback to ro.product.model
-    return "";
+    return "Xperia";
 }
 
 #define BTM_DEF_LOCAL_NAME BtmGetDefaultName()

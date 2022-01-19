@@ -453,3 +453,21 @@ PRODUCT_PACKAGES += \
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.surface_flinger.force_hwc_copy_for_virtual_displays=true \
     ro.surface_flinger.max_virtual_display_dimension=4096
+
+# Thermal HAL
+PRODUCT_PACKAGES += \
+    android.hardware.thermal@1.0-impl \
+    android.hardware.thermal@1.0-service
+
+# Thermal management
+PRODUCT_PACKAGES += \
+    thermanager
+
+# OSS Time service for managing time offsets w.r.t. RTC
+PRODUCT_PACKAGES += \
+    timekeep \
+    TimeKeep
+
+# BoringSSL hacks
+PRODUCT_PACKAGES += \
+    libboringssl-compat
