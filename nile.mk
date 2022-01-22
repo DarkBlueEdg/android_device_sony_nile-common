@@ -388,8 +388,8 @@ PRODUCT_BOOT_JARS += \
     telephony-ext
 
 # Tethering
-PRODUCT_PACKAGES += \
-    TetheringConfigOverlay
+#PRODUCT_PACKAGES += \
+#    TetheringConfigOverlay
 
 # TextClassifier
 PRODUCT_PACKAGES += \
